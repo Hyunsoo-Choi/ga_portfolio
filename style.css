@@ -1,0 +1,278 @@
+/* Global Selector */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: tomato;
+}
+
+.column-left:hover {
+  background-color: #f1c40f;
+}
+
+.idea:hover {
+  background: url('img/idea.svg') no-repeat center center;
+}
+
+
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+
+/*********************
+      FONT
+*********************/
+@import url(http://fonts.googleapis.com/css?family=Cuprum);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:500);
+/*********************
+      HEADER
+*********************/
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: center center no-repeat url('img/background.jpg');
+  background-size: cover;
+}
+
+.header-container {
+  margin: auto auto;
+  position: relative;
+  top: 5%;
+}
+
+header li {
+  text-align: center;
+  display: inline-block;
+}
+
+.photo {
+  background: url('img/profile.jpg') center center no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  margin: auto auto;
+  border-radius: 50%;
+}
+
+.header-h1 {
+  margin: auto auto;
+  text-align: center;
+  display: block;
+  color: white;
+  font-size: 40px;
+  font-family: 'Cuprum', sans-serif;
+}
+
+.header-h1 p {
+  margin-top: 50px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.contact {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header-h1 p a {
+  line-height: 10px;
+}
+
+/*********************
+      SECTION
+*********************/
+
+section {
+  height: 100vh;
+}
+
+/*********************
+ SECTION LEFT COLUMN
+*********************/
+
+.column-left {
+  float: left;
+  background: white;
+  width: 50%;
+  height: 100%;
+}
+
+.idea {
+  height: 60%;
+  background: url('img/idea.svg') no-repeat center center hidden;
+}
+
+.column-left h1{
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  top: 2%;
+  font-family: 'Ubuntu', sans-serif;
+  color: #34495e;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 4px;
+}
+
+/*********************
+ SECTION RIGHT COLUMN
+*********************/
+
+.column-right {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background: #34495e;
+  text-align: center;
+}
+
+.column-right h1 {
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  top: 2%;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 4px;
+}
+
+/*********************
+ SECTION RIGHT ICONS
+*********************/
+
+.programming-list {
+  width: 100%;
+  margin: auto 0;
+}
+
+.programming-list ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  margin-top: 70px;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.html {
+  background: url('img/html.svg');
+}
+
+.css {
+  background: url('img/css.svg');
+}
+
+.javascript {
+  background: url('img/javascript.svg');
+}
+
+.jquery {
+  background: url('img/jquery.svg');
+}
+
+.sass {
+  background: url('img/sass.svg');
+}
+
+.bootstrap {
+  background: url('img/bootstrap.svg');
+}
+
+.foundation {
+  background: url('img/foundation.svg');
+}
+
+.rails {
+  background: url('img/rails.svg');
+}
+
+/*********************
+    SECTION LEARN
+*********************/
+#learn {
+  height: 100vh;
+} 
+
+/*********************
+    SECTION LEFT
+*********************/
+
+.learn-column-left {
+  float: left;
+  background: url('img/uta.jpg') center center no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+/*  border: solid thick tomato;*/
+}
+
+.learn-column-left h1 {
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  top: 15%;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 4px;
+  text-shadow: 1px 1px black;
+}
+
+.learn-column-left p {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  position: relative;
+  top: 20%;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 4px;
+  background-color: rgba(0,0,0,0.4);
+}
+
+/*********************
+    SECTION RIGHT
+*********************/
+
+.learn-column-right {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background: url('img/rocket.svg') center center no-repeat;
+  background-size: cover;
+}
+
+.learn-column-right h1 {
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  top: 55%;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 4px;
+}
